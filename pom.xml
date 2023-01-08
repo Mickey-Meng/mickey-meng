@@ -39,7 +39,7 @@
         <mapstruct.version>1.5.3.Final</mapstruct.version>
 
 
-        <!-- mysql: https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- mysql: https://mvnrepository.c om/artifact/mysql/mysql-connector-java -->
         <mysql.version>8.0.30</mysql.version>
         <!-- druid: https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
         <druid.version>1.2.15</druid.version>

@@ -19,6 +19,7 @@
     <modules>
         <module>mickey-admin-system</module>
         <module>mickey-admin-infra</module>
+        <module>mickey-admin-api</module>
     </modules>
 
     <dependencies>
