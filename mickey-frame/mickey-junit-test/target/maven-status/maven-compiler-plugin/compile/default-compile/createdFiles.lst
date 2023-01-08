@@ -1,0 +1,10 @@
+com\mickeymeng\framework\test\core\ut\BaseMockitoUnitTest.class
+com\mickeymeng\framework\test\config\SqlInitializationTestConfiguration.class
+com\mickeymeng\framework\test\core\ut\BaseDbUnitTest.class
+com\mickeymeng\framework\test\config\MickeyRedisTestConfiguration.class
+com\mickeymeng\framework\test\core\ut\BaseRedisUnitTest.class
+com\mickeymeng\framework\test\core\ut\BaseDbUnitTest$Application.class
+com\mickeymeng\framework\test\core\ut\BaseDbAndRedisUnitTest$Application.class
+com\mickeymeng\framework\test\core\util\AssertUtils.class
+com\mickeymeng\framework\test\core\ut\BaseDbAndRedisUnitTest.class
+com\mickeymeng\framework\test\core\ut\BaseRedisUnitTest$Application.class

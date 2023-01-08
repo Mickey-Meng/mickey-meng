@@ -1,0 +1,6 @@
+com.mickeymeng.framework.security.config.YudaoSecurityAutoConfiguration
+com.mickeymeng.framework.security.config.YudaoWebSecurityConfigurerAdapter
+com.mickeymeng.framework.apilog.config.YudaoApiLogAutoConfiguration
+com.mickeymeng.framework.jackson.config.YudaoJacksonAutoConfiguration
+com.mickeymeng.framework.swagger.config.YudaoSwaggerAutoConfiguration
+com.mickeymeng.framework.web.config.YudaoWebAutoConfiguration

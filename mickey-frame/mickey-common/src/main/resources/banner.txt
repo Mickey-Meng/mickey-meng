@@ -1,0 +1,5 @@
+Application Version: ${mickey.info.version}
+Spring Boot Version: ${spring-boot.version}
+
+暂时未配置：
+com.mickeymeng.framework.datapermission.config.MickeyDataPermissionAutoConfiguration

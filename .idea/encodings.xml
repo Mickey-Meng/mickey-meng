@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mickey-admin/mickey-admin-infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-admin/mickey-admin-infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-admin/mickey-admin-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-admin/mickey-admin-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-junit-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-junit-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-logging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-middleware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/mickey-middleware/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-frame/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-bpm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-bpm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/test-integration/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/test-integration/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-run-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-run-one/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-ui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-ui/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

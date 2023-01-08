@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mickey-meng</artifactId>
+        <groupId>com.mickeymeng</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mickey-admin</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        系统管理后台服务端
+    </description>
+    <modules>
+        <module>mickey-admin-system</module>
+        <module>mickey-admin-infra</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-logging</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-common</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-junit-test</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-middleware</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>

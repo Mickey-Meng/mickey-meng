@@ -1,0 +1,15 @@
+com.mickeymeng.framework.captcha.config.YudaoCaptchaConfiguration
+com.mickeymeng.framework.middleware.sms.config.YudaoSmsAutoConfiguration
+com.mickeymeng.framework.file.config.YudaoFileAutoConfiguration
+com.mickeymeng.framework.flowable.config.YudaoFlowableConfiguration
+com.mickeymeng.framework.quartz.config.YudaoQuartzAutoConfiguration
+com.mickeymeng.framework.quartz.config.YudaoAsyncAutoConfiguration
+com.mickeymeng.framework.tracer.config.YudaoTracerAutoConfiguration
+com.mickeymeng.framework.tracer.config.YudaoMetricsAutoConfiguration
+com.mickeymeng.framework.mq.config.YudaoMQAutoConfiguration
+com.mickeymeng.framework.datasource.config.YudaoDataSourceAutoConfiguration
+com.mickeymeng.framework.mybatis.config.YudaoMybatisAutoConfiguration
+com.mickeymeng.framework.idempotent.config.YudaoIdempotentConfiguration
+com.mickeymeng.framework.lock4j.config.YudaoLock4jConfiguration
+com.mickeymeng.framework.redis.config.YudaoRedisAutoConfiguration
+com.mickeymeng.framework.redis.config.YudaoCacheAutoConfiguration

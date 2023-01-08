@@ -1,0 +1,15 @@
+com.mickeymeng.framework.middleware.sms.config.SmsAutoConfiguration
+com.mickeymeng.framework.middleware.captcha.config.CaptchaConfiguration
+com.mickeymeng.framework.middleware.file.config.FileAutoConfiguration
+com.mickeymeng.framework.middleware.flowable.config.FlowableConfiguration
+com.mickeymeng.framework.middleware.job.config.QuartzAutoConfiguration
+com.mickeymeng.framework.middleware.job.config.AsyncAutoConfiguration
+com.mickeymeng.framework.middleware.monitor.config.TracerAutoConfiguration
+com.mickeymeng.framework.middleware.monitor.config.MetricsAutoConfiguration
+com.mickeymeng.framework.middleware.mq.config.MickeyMQAutoConfiguration
+com.mickeymeng.framework.middleware.mybatis.datasource.config.MickeyDataSourceAutoConfiguration
+com.mickeymeng.framework.middleware.mybatis.mybatis.config.MybatisAutoConfiguration
+com.mickeymeng.framework.middleware.protection.idempotent.config.IdempotentConfiguration
+com.mickeymeng.framework.middleware.protection.lock4j.config.Lock4jConfiguration
+com.mickeymeng.framework.middleware.redis.config.MickeyRedisAutoConfiguration
+com.mickeymeng.framework.middleware.redis.config.CacheAutoConfiguration

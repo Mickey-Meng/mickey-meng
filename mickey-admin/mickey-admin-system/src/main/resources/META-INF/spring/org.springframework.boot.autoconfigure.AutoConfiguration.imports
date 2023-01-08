@@ -1,0 +1,2 @@
+com.mickeymeng.admin.system.api.tenant.config.TenantAutoConfiguration
+com.mickeymeng.admin.system.api.dict.config.DictAutoConfiguration

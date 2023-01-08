@@ -1,0 +1,6 @@
+com.mickeymeng.framework.security.config.MickeySecurityAutoConfiguration
+com.mickeymeng.framework.security.config.MickeyWebSecurityConfigurerAdapter
+com.mickeymeng.framework.assistant.apilog.config.ApiLogAutoConfiguration
+com.mickeymeng.framework.assistant.jackson.config.MickeyJacksonAutoConfiguration
+com.mickeymeng.framework.assistant.swagger.config.MickeySwaggerAutoConfiguration
+com.mickeymeng.framework.assistant.web.config.MickeyWebAutoConfiguration

@@ -1,0 +1,6 @@
+com.mickeymeng.framework.social.config.SocialAutoConfiguration
+com.mickeymeng.framework.errorcode.config.ErrorCodeConfiguration
+com.mickeymeng.framework.banner.config.MickeyBannerAutoConfiguration
+
+com.mickeymeng.framework.datapermission.config.MickeyDeptDataPermissionAutoConfiguration
+com.mickeymeng.framework.common.config.BeanPostProcessorConfig
