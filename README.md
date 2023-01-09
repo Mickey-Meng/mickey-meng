@@ -7,7 +7,15 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 #### 软件架构
 软件架构说明
+![功能分层]()
 
+* 系统功能
+* 基础设施
+* 工作流程
+* 支付系统
+* 会员中心
+* 数据报表
+* 商城系统
 
 #### 安装教程
 
@@ -20,6 +28,35 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 1.  xxxx
 2.  xxxx
 3.  xxxx
+
+技术栈
+
+| 项目                            | 说明                  |
+|-------------------------------|---------------------|
+| `mickey-admin`                | 管理后台                |
+| `mickey-admin-api`            | 管理后台API             |
+| `mickey-admin-infra`          | 管理后台-基础框架           |
+| `mickey-admin-system`         | 管理后台-系统管理           |
+| `mickey-api`                  | API管理               |
+| `mickey-api-member`           | API-会员管理            |
+| `mickey-frame`                | Java 框架             |
+| `mickey-common`               | Java 框架拓展           |
+| `mickey-common-api`           | Java 框架拓展           |
+| `mickey-core`                 | Java 框架拓展           |
+| `mickey-module`               | 管理后台的 Vue3 前端项目     |
+| `mickey-module-bpm`           | Java 框架拓展           |
+| `mickey-module-pay`           | Java 框架拓展           |
+| `mickey-module-report`        | Java 框架拓展           |
+| `mickey-run-one`              | 管理后台的 uni-app 多端项目  |
+| `mickey-ui`                   | 用户 APP 的 UI 界面      |
+| `mickey-ui-admin-uniapp`      | 管理后台的 uni-app 多端项目  |
+| `mickey-ui-admin-web`         | Java 框架拓展           |
+| `mickey-ui-uniapp`            | Java 框架拓展           |
+| `mickey-module-system`        | 系统功能的 Module 模块     |
+| `mickey-module-member`        | 会员中心的 Module 模块     |
+| `mickey-module-infra`         | 基础设施的 Module 模块     |
+| `mickey-module-bpm`           | 工作流程的 Module 模块     |
+| `mickey-module-pay`           | 支付系统的 Module 模块     |
 
 #### 参与贡献
 
