@@ -17,4 +17,20 @@
         系统管理模块
     </description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-core</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-admin-api</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
 </project>

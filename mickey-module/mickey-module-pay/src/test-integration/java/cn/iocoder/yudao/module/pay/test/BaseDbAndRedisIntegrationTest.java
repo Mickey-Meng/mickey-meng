@@ -1,8 +1,8 @@
-package com.mickeymeng.framework.module.pay.test;
+package cn.iocoder.yudao.module.pay.test;
 
-import com.mickeymeng.framework.datasource.config.YudaoDataSourceAutoConfiguration;
-import com.mickeymeng.framework.mybatis.config.YudaoMybatisAutoConfiguration;
-import com.mickeymeng.framework.redis.config.YudaoRedisAutoConfiguration;
+import cn.iocoder.yudao.framework.datasource.config.YudaoDataSourceAutoConfiguration;
+import cn.iocoder.yudao.framework.mybatis.config.YudaoMybatisAutoConfiguration;
+import cn.iocoder.yudao.framework.redis.config.YudaoRedisAutoConfiguration;
 import com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration;
 import com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration;
 import org.redisson.spring.starter.RedissonAutoConfiguration;

@@ -119,6 +119,62 @@
         <screw.version>1.0.5</screw.version>
         <!-- IP地址解析 -->
         <ip2region.version>2.6.6</ip2region.version>
+
+        <!-- Web 相关 -->
+        <knife4j.version>3.0.3</knife4j.version>
+        <swagger-annotations.version>1.6.8</swagger-annotations.version>
+        <servlet.versoin>2.5</servlet.versoin>
+        <!-- DB 相关 -->
+        <druid.version>1.2.15</druid.version>
+        <mybatis-plus.version>3.5.3</mybatis-plus.version>
+        <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
+        <dynamic-datasource.version>3.6.1</dynamic-datasource.version>
+        <redisson.version>3.18.0</redisson.version>
+        <!-- 服务保障相关 -->
+        <lock4j.version>2.2.3</lock4j.version>
+        <resilience4j.version>1.7.1</resilience4j.version>
+        <!-- 监控相关 -->
+        <skywalking.version>8.12.0</skywalking.version>
+        <spring-boot-admin.version>2.7.9</spring-boot-admin.version>
+        <opentracing.version>0.33.0</opentracing.version>
+        <!-- Test 测试相关 -->
+        <podam.version>7.2.11.RELEASE</podam.version>
+        <jedis-mock.version>1.0.5</jedis-mock.version>
+        <mockito-inline.version>4.11.0</mockito-inline.version>
+        <!-- Bpm 工作流相关 -->
+        <flowable.version>6.8.0</flowable.version>
+        <!-- 工具类相关 -->
+        <lombok.version>1.18.24</lombok.version>
+        <mapstruct.version>1.5.3.Final</mapstruct.version>
+        <hutool.version>5.8.11</hutool.version>
+        <easyexcel.verion>3.1.4</easyexcel.verion>
+        <velocity.version>2.3</velocity.version>
+        <screw.version>1.0.5</screw.version>
+        <fastjson.version>1.2.83</fastjson.version>
+        <guava.version>31.1-jre</guava.version>
+        <guice.version>5.1.0</guice.version>
+        <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+        <commons-net.version>3.8.0</commons-net.version>
+        <jsch.version>0.1.55</jsch.version>
+        <tika-core.version>2.6.0</tika-core.version>
+        <aj-captcha.version>1.3.0</aj-captcha.version>
+        <netty-all.version>4.1.86.Final</netty-all.version>
+        <ip2region.version>2.6.6</ip2region.version>
+        <!-- 三方云服务相关 -->
+        <okio.version>3.0.0</okio.version>
+        <okhttp3.version>4.10.0</okhttp3.version>
+        <minio.version>8.4.6</minio.version>
+        <aliyun-java-sdk-core.version>4.6.3</aliyun-java-sdk-core.version>
+        <aliyun-java-sdk-dysmsapi.version>2.2.1</aliyun-java-sdk-dysmsapi.version>
+        <tencentcloud-sdk-java.version>3.1.660</tencentcloud-sdk-java.version>
+        <justauth.version>1.4.0</justauth.version>
+        <jimureport.version>1.5.6</jimureport.version>
+        <xercesImpl.version>2.12.2</xercesImpl.version>
+        <slf4j-api.version>2.0.6</slf4j-api.version>
+        <jackson-databind.version>2.14.1</jackson-databind.version>
+        <jackson-core.version>2.14.1</jackson-core.version>
+        <jakarta-validation-api.version>3.0.2</jakarta-validation-api.version>
+        <spring-security-core.version>5.7.6</spring-security-core.version>
     </properties>
 
     <dependencyManagement>
@@ -131,93 +187,362 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
-        <!-- **************************** spring相关 [Start] **************************** -->
+        <!-- 统一依赖管理 -->
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>${spring-boot.version}</version>
+            <type>pom</type>
+            <scope>compile</scope>
+        </dependency>-->
+
+        <!-- ************************************* data-permission [开始] ************************************* -->
+
+        <!-- ************************************* data-permission [结束] ************************************* -->
+
+        <!-- ************************************* 3.dict [开始] ************************************* -->
+        <!-- Spring 核心 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- 用于生成自定义的 Spring @ConfigurationProperties 配置类的说明文件 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
 
-        <!-- spring-boot 安全框架 -->
+        <!-- ************************************* 3.dict [开始] ************************************* -->
+
+        <!-- ************************************* 4.error-code [开始] ************************************* -->
+
+        <!-- ************************************* 4.error-code [开始] ************************************* -->
+
+        <!-- ************************************* 5.ip [开始] ************************************* -->
+        <!-- IP地址检索 -->
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>ip2region</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+            <scope>provided</scope> &lt;!&ndash; 设置为 provided，只有工具类需要使用到 &ndash;&gt;
+        </dependency>-->
+
+        <!-- ************************************* 5.ip [开始] ************************************* -->
+
+        <!-- ************************************* 6.operatelog [开始] ************************************* -->
+
+        <!-- 工具类相关 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+        </dependency>
+        <!-- ************************************* 6.operatelog [开始] ************************************* -->
+
+        <!-- ************************************* 7.pay [开始] ************************************* -->
+
+        <!-- 工具类相关 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
+
+        <!-- 三方云服务相关 -->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>4.35.9.ALL</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId>bcprov-jdk15on</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-pay</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+
+        <!-- ************************************* 7.pay [开始] ************************************* -->
+
+        <!-- ************************************* 8.sms [开始] ************************************* -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>${jakarta-validation-api.version}</version>
+        </dependency>
+
+        <!-- 三方云服务相关 -->
+
+        <!-- SMS SDK begin -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.tencentcloudapi</groupId>
+            <artifactId>tencentcloud-sdk-java-sms</artifactId>
+        </dependency>
+        <!-- SMS SDK end -->
+        <!-- ************************************* 8.sms [开始] ************************************* -->
+
+        <!-- ************************************* 9.social [开始] ************************************* -->
+
+        <!-- ************************************* 9.social [开始] ************************************* -->
+
+        <!-- ************************************* 10.tenant [开始] ************************************* -->
+        <!-- Job 定时任务相关 -->
+        <!-- 消息队列相关 -->
+        <!-- ************************************* 10.tenant [开始] ************************************* -->
+
+        <!-- ************************************* 11.weixin [开始] ************************************* -->
+        <!-- Test 测试相关 -->
+        <!-- 三方云服务相关 -->
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>wx-java-mp-spring-boot-starter</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>wx-java-miniapp-spring-boot-starter</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <!-- ************************************* 11.weixin [开始] ************************************* -->
+
+        <!-- ************************************* 12.captcha [开始] ************************************* -->
+        <!-- 验证码相关 -->
+        <dependency>
+            <groupId>com.anji-plus</groupId>
+            <artifactId>spring-boot-starter-captcha</artifactId>
+        </dependency>
+        <!-- ************************************* 12.captcha [开始] ************************************* -->
+
+        <!-- ************************************* 13.excel [开始] ************************************* -->
+
+        <!-- ************************************* 13.excel [开始] ************************************* -->
+
+        <!-- ************************************* 14.file [开始] *************************************
+            如下依赖都已存在
+            spring-boot-starter-validation
+            slf4j-api
+            jackson-databind
+            jackson-core
+            commons-net
+            jsch
+            tika-core
+            minio
+         ************************************* 14.file [开始] ************************************* -->
+
+        <!-- ************************************* 15.flowable [开始] ************************************* -->
+        <!-- flowable 工作流相关
+        flowable-spring-boot-starter-process
+        flowable-spring-boot-starter-actuator
+        -->
+        <!-- ************************************* 15.flowable [开始] ************************************* -->
+
+        <!-- ************************************* 16.job [开始] ************************************* -->
+
 
         <!-- Job 定时任务相关 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-quartz</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
 
-        <!-- 参数校验 -->
+        <!-- ************************************* 16.job [开始] ************************************* -->
+
+        <!-- ************************************* 17.monitor [开始] ************************************* -->
+        <!-- Web 相关 -->
+        <!--<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>6.0.3</version> &lt;!&ndash; 设置为 provided，只有 TraceFilter、ExcelUtils 使用 &ndash;&gt;
+        </dependency>-->
+
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-            <optional>true</optional>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>4.0.4</version>
+            <scope>provided</scope> <!-- 设置为 provided，只有 TraceFilter 使用 -->
         </dependency>
+
+        <!-- Micrometer 对 Prometheus 的支持 -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+        <!-- ************************************* 17.monitor [开始] ************************************* -->
+
+        <!-- ************************************* 18.mq [开始] ************************************* -->
+        <!-- DB 相关 -->
+        <!-- ************************************* 18.mq [开始] ************************************* -->
+
+        <!-- ************************************* 19.mybatis [开始] ************************************* -->
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.31</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+
+        <!-- ************************************* 19.mybatis [开始] ************************************* -->
+
+        <!-- ************************************* 20.protection [开始] ************************************* -->
+
+        <!-- ************************************* 20.protection [开始] ************************************* -->
+
+        <!-- ************************************* 21.redis [开始] ************************************* -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId> <!-- 实现对 Caches 的自动化配置 -->
+            <version>${spring-boot.version}</version>
         </dependency>
 
-        <!-- Springboot开发工具:监控程序变化，然后自行重新启动 -->
+        <!-- ************************************* 21.redis [开始] ************************************* -->
+
+        <!-- ************************************* 22.security [开始] ************************************* -->
+        <!-- Spring 核心 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter-aop</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
-
-        <!-- 单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <!-- ************************************* 22.security [开始] ************************************* -->
+
+        <!-- ************************************* 23.web [开始] ************************************* -->
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
 
-        <!--<dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring-security-core.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-expression</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+            <!-- 设置为 provided，主要是 GlobalExceptionHandler 使用 -->
+        </dependency>
+        <!-- ************************************* 23.web [开始] ************************************* -->
+
+        <!-- ************************************* 24.test [开始] ************************************* -->
+        <dependency>
+            <groupId>com.h2database</groupId> <!-- 单元测试，我们采用 H2 作为数据库 -->
+            <artifactId>h2</artifactId>
+            <version>2.1.212</version>
+        </dependency>
+        <!-- ************************************* 24.test [结束] ************************************* -->
+
+        <!-- Spring 核心 -->
+        <!--<dependency> 暂时注释，不然启动报错
+            &lt;!&ndash; 用于生成自定义的 Spring @ConfigurationProperties 配置类的说明文件 &ndash;&gt;
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
-            <scope>compile</scope>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>-->
-        <!-- **************************** spring相关 [End] **************************** -->
-
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- mapstruct:https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
-        <dependency>
-            <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct</artifactId>
-            <version>${mapstruct.version}</version>
-        </dependency>
-
+        <!--读取yml文件-->
+        <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
         <!--<dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
+            <version>1.33</version>
         </dependency>-->
-        <!-- **************************** DataBase 相关 [Start] **************************** -->
+
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.version}</version>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>${knife4j.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>mapstruct</artifactId>
+                    <groupId>org.mapstruct</groupId> <!-- 避免冲突 -->
+                </exclusion>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>swagger-annotations</artifactId>
+                    <groupId>io.swagger</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${swagger-annotations.version}</version>
         </dependency>
 
         <dependency>
@@ -225,11 +550,20 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>${druid.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis-plus.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-jdbc</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -242,17 +576,78 @@
             <version>${dynamic-datasource.version}</version>
         </dependency>
 
-        <!-- **************************** DataBase 相关 [End] **************************** -->
-
-        <!-- **************************** 工具组件 相关 [Start] **************************** -->
         <dependency>
-            <!-- 1.6.9以上版本:swagger-annotations » io.swagger.core.v3 -->
-            <groupId>io.swagger</groupId>
-            <artifactId>swagger-annotations</artifactId>
-            <version>${swagger-annotations.version}</version>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>${redisson.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-context-support</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-tx</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <!-- spring-data-redis版本为2.7.6，排除此处的2.7.7版本，重新引入2.7.6的spring-boot-starter-data-redis-->
+                <exclusion>
+                    <artifactId>spring-boot-starter-data-redis</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- 日志相关 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>2.7.6</version>
+        </dependency>
+
+        <!-- Config 配置中心相关 -->
+
+        <!-- Job 定时任务相关 -->
+
+
+        <!-- 消息队列相关 -->
+
+
+        <!-- 服务保障相关 -->
+
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>lock4j-redisson-spring-boot-starter</artifactId>
+            <version>${lock4j.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>redisson-spring-boot-starter</artifactId>
+                    <groupId>org.redisson</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-ratelimiter</artifactId>
+            <version>${resilience4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-spring-boot2</artifactId>
+            <version>${resilience4j.version}</version>
+        </dependency>
+
+        <!-- 监控相关 -->
+
+
         <dependency>
             <groupId>org.apache.skywalking</groupId>
             <artifactId>apm-toolkit-trace</artifactId>
@@ -267,10 +662,17 @@
             <groupId>org.apache.skywalking</groupId>
             <artifactId>apm-toolkit-opentracing</artifactId>
             <version>${skywalking.version}</version>
+            <!--                <exclusions>-->
+            <!--                    <exclusion>-->
+            <!--                        <artifactId>opentracing-api</artifactId>-->
+            <!--                        <groupId>io.opentracing</groupId>-->
+            <!--                    </exclusion>-->
+            <!--                    <exclusion>-->
+            <!--                        <artifactId>opentracing-util</artifactId>-->
+            <!--                        <groupId>io.opentracing</groupId>-->
+            <!--                    </exclusion>-->
+            <!--                </exclusions>-->
         </dependency>
-
-        <!--
-            与apm-toolkit-opentracing的opentracing-api、opentracing-util、opentracing-noop冲突
         <dependency>
             <groupId>io.opentracing</groupId>
             <artifactId>opentracing-api</artifactId>
@@ -278,39 +680,168 @@
         </dependency>
         <dependency>
             <groupId>io.opentracing</groupId>
-            <artifactId>opentracing-util</artifactId>
+            <artifactId>opentracing-util</artifactId><!-- aliyun 短信需要，进行链路追踪 -->
             <version>${opentracing.version}</version>
         </dependency>
         <dependency>
             <groupId>io.opentracing</groupId>
             <artifactId>opentracing-noop</artifactId>
             <version>${opentracing.version}</version>
-        </dependency>-->
-
-        <!-- 管理和监控 Spring Boot 应用程序 -->
-        <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-client</artifactId> <!-- 实现 Spring Boot Admin Server 客户端 -->
-            <version>${spring-boot-admin.version}</version>
         </dependency>
+
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-server</artifactId> <!-- 实现 Spring Boot Admin Server 服务端 -->
             <version>${spring-boot-admin.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-web</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId> <!-- 实现 Spring Boot Admin Server 服务端 -->
+            <version>${spring-boot-admin.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-web</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
-        <!--<dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <version>5.0.0</version>
-        </dependency>-->
+        <!-- Test 测试相关 -->
 
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <version>${mockito-inline.version}</version> <!-- 支持 Mockito 的 final 类与 static 方法的 mock -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring-boot.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>asm</artifactId>
+                    <groupId>org.ow2.asm</groupId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.mockito</groupId>
+                    <artifactId>mockito-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.fppt</groupId> <!-- 单元测试，我们采用内嵌的 Redis 数据库 -->
+            <artifactId>jedis-mock</artifactId>
+            <version>${jedis-mock.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>uk.co.jemos.podam</groupId> <!-- 单元测试，随机生成 POJO 类 -->
+            <artifactId>podam</artifactId>
+            <version>${podam.version}</version>
+        </dependency>
+
+        <!-- 工作流相关 -->
+
+        <dependency>
+            <groupId>org.flowable</groupId>
+            <artifactId>flowable-spring-boot-starter-process</artifactId>
+            <version>${flowable.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.flowable</groupId>
+            <artifactId>flowable-spring-boot-starter-actuator</artifactId>
+            <version>${flowable.version}</version>
+        </dependency>
+        <!-- 工作流相关结束 -->
+
+        <!-- 工具类相关 -->
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId> <!-- use mapstruct-jdk8 for Java 8 or higher -->
+            <version>${mapstruct.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-jdk8</artifactId>
+            <version>${mapstruct.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${mapstruct.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>${hutool-all.version}</version>
+            <version>${hutool.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>${easyexcel.verion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId> <!-- 文件类型的识别 -->
+            <version>${tika-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.anji-plus</groupId>
+            <artifactId>spring-boot-starter-captcha</artifactId>
+            <version>${aj-captcha.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>${velocity.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.smallbun.screw</groupId>
+            <artifactId>screw-core</artifactId> <!-- 实现数据库文档 -->
+            <version>${screw.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.freemarker</groupId>
+                    <artifactId>freemarker</artifactId> <!-- 移除 Freemarker 依赖，采用 Velocity 作为模板引擎 -->
+                </exclusion>
+                <exclusion>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>fastjson</artifactId> <!-- 最新版screw-core1.0.5依赖fastjson1.2.73存在漏洞，移除。 -->
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -319,22 +850,28 @@
             <version>${guava.version}</version>
         </dependency>
 
-        <!-- 工具类相关 -->
-        <!--<dependency>
-            <groupId>jakarta.validation</groupId>
-            <artifactId>jakarta.validation-api</artifactId>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>${guice.version}</version>
         </dependency>
-        <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
-            <version>${validation-api.version}</version>
-        </dependency>-->
 
-        <!-- DB 相关 -->
         <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson-spring-boot-starter</artifactId>
-            <version>${redisson-spring-boot.version}</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId> <!-- 解决 ThreadLocal 父子线程的传值问题 -->
+            <version>${transmittable-thread-local.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId> <!-- 解决 ftp 连接 -->
+            <version>${commons-net.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId> <!-- 解决 sftp 连接 -->
+            <version>${jsch.version}</version>
         </dependency>
 
         <dependency>
@@ -343,17 +880,28 @@
             <version>${netty-all.version}</version>
         </dependency>
 
-        <!-- 滑动验证码 -->
         <dependency>
-            <groupId>com.anji-plus</groupId>
-            <artifactId>spring-boot-starter-captcha</artifactId>
-            <version>${spring-boot-captcha.version}</version>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>ip2region</artifactId>
+            <version>${ip2region.version}</version>
         </dependency>
-        <!-- 阿里excel工具包 -->
+
+        <!-- 三方云服务相关 -->
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>easyexcel</artifactId>
-            <version>${easyexcel.version}</version>
+            <groupId>com.squareup.okio</groupId>
+            <artifactId>okio</artifactId>
+            <version>${okio.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp3.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>${minio.version}</version>
         </dependency>
 
         <!-- SMS SDK begin -->
@@ -380,253 +928,47 @@
         <dependency>
             <groupId>com.tencentcloudapi</groupId>
             <artifactId>tencentcloud-sdk-java-sms</artifactId>
-            <version>${tencentcloud-sdk-java-sms.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>okio</artifactId>
-                    <groupId>com.squareup.okio</groupId>
-                </exclusion>
-            </exclusions>
+            <version>${tencentcloud-sdk-java.version}</version>
         </dependency>
         <!-- SMS SDK end -->
 
-        <!--<dependency>
-            <groupId>com.github.suxingli</groupId>
-            <artifactId>aliyuncs</artifactId>
-            <version>${aliyuncs.version}</version>
-        </dependency>-->
-
-        <!--<dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>${minio.version}</version>
-        </dependency>-->
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>transmittable-thread-local</artifactId>
-            <version>${transmittable.version}</version>
-        </dependency>
-
-        <!-- 文件类型的识别 -->
-        <dependency>
-            <groupId>org.apache.tika</groupId>
-            <artifactId>tika-core</artifactId>
-            <version>${tika-core.version}</version>
-        </dependency>
-
-
-        <!-- 三方云服务相关 -->
-        <dependency>
-            <groupId>com.squareup.okio</groupId>
-            <artifactId>okio</artifactId>
-            <version>${okio.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
-            <version>${okhttp3.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.xkcoding.justauth</groupId>
-            <artifactId>justauth-spring-boot-starter</artifactId>
-            <version>${xkcoding.justauth.version}</version>
+            <artifactId>justauth-spring-boot-starter</artifactId> <!-- 社交登陆（例如说，个人微信、企业微信等等） -->
+            <version>${justauth.version}</version>
             <exclusions>
                 <exclusion>
-                    <artifactId>fastjson</artifactId>
-                    <groupId>com.alibaba</groupId>
+                    <groupId>cn.hutool</groupId>
+                    <artifactId>hutool-core</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!-- 三方云服务相关 -->
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>wx-java-mp-spring-boot-starter</artifactId>
-            <version>${wx-java-spring-boot.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>wx-java-miniapp-spring-boot-starter</artifactId>
-            <version>${wx-java-spring-boot.version}</version>
-        </dependency>
-
-        <!-- 第三方支付 -->
-        <dependency>
-            <groupId>com.alipay.sdk</groupId>
-            <artifactId>alipay-sdk-java</artifactId>
-            <version>${alipay-sdk-java.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.bouncycastle</groupId>
-                    <artifactId>bcprov-jdk15on</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-logging</artifactId>
-                    <groupId>commons-logging</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>okhttp</artifactId>
-                    <groupId>com.squareup.okhttp3</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>xml-apis</artifactId>
-                    <groupId>xml-apis</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.github.binarywang</groupId>
-            <artifactId>weixin-java-pay</artifactId>
-            <version>${weixin-java-pay.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>bcprov-jdk15on</artifactId>
-                    <groupId>org.bouncycastle</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>core</artifactId>
-                    <groupId>com.google.zxing</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <!-- 服务保障相关 -->
-        <dependency>
-            <groupId>io.github.resilience4j</groupId>
-            <artifactId>resilience4j-ratelimiter</artifactId>
-            <version>${resilience4j-ratelimiter.version}</version>
-            <scope>provided</scope> <!-- 设置为 provided，主要是 GlobalExceptionHandler 使用 -->
         </dependency>
 
         <!-- 积木报表-->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>1.5.6</version>
+            <version>${jimureport.version}</version>
             <exclusions>
                 <exclusion>
-                    <artifactId>aliyun-java-sdk-core</artifactId>
-                    <groupId>com.aliyun</groupId>
-                </exclusion>
-                <exclusion>
+                    <groupId>com.alibaba</groupId>
                     <artifactId>druid</artifactId>
-                    <groupId>com.alibaba</groupId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>fastjson</artifactId>
-                    <groupId>com.alibaba</groupId>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>jsqlparser</artifactId>
-                    <groupId>com.github.jsqlparser</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>okhttp</artifactId>
-                    <groupId>com.squareup.okhttp3</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>xercesImpl</artifactId>
-                    <groupId>xerces</groupId>
+                    <artifactId>spring-jdbc</artifactId>
+                    <groupId>org.springframework</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 单独依赖升级版本，解决低版本validator失败问题 -->
         <dependency>
             <groupId>xerces</groupId>
             <artifactId>xercesImpl</artifactId>
-            <version>2.12.2</version>
+            <version>${xercesImpl.version}</version>
         </dependency>
-
-        <!-- 工作流相关 -->
-        <dependency>
-            <groupId>org.flowable</groupId>
-            <artifactId>flowable-spring-boot-starter-process</artifactId>
-            <version>${flowable.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.flowable</groupId>
-            <artifactId>flowable-spring-boot-starter-actuator</artifactId>
-            <version>${flowable.version}</version>
-        </dependency>
-        <!-- 工作流相关结束 -->
-
-        <dependency>
-            <groupId>cn.smallbun.screw</groupId>
-            <artifactId>screw-core</artifactId> <!-- 实现数据库文档 -->
-            <version>${screw.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.freemarker</groupId>
-                    <artifactId>freemarker</artifactId> <!-- 移除 Freemarker 依赖，采用 Velocity 作为模板引擎 -->
-                </exclusion>
-                <exclusion>
-                    <groupId>com.alibaba</groupId>
-                    <artifactId>fastjson</artifactId> <!-- 最新版screw-core1.0.5依赖fastjson1.2.73存在漏洞，移除。 -->
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>lock4j-redisson-spring-boot-starter</artifactId>
-            <version>${lock4j.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>redisson-spring-boot-starter</artifactId>
-                    <groupId>org.redisson</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <!-- 使用swagger-bootstrap-ui替换swagger-ui -->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
-            <version>${knife4j.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>mapstruct</artifactId>
-                    <groupId>org.mapstruct</groupId> <!-- 避免冲突 -->
-                </exclusion>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>swagger-annotations</artifactId>
-                    <groupId>io.swagger</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <!-- IP地址解析 -->
-        <dependency>
-            <groupId>org.lionsoul</groupId>
-            <artifactId>ip2region</artifactId>
-            <version>${ip2region.version}</version>
-        </dependency>
-        <!-- 单元测试，随机生成 POJO 类 -->
-        <dependency>
-            <groupId>uk.co.jemos.podam</groupId>
-            <artifactId>podam</artifactId>
-            <version>${podam.version}</version>
-        </dependency>
-
-        <!-- **************************** 工具组件 相关 [End] **************************** -->
     </dependencies>
 
     <build>

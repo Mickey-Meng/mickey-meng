@@ -16,4 +16,20 @@
     <description>
         系统管理基础服务
     </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-core</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-admin-api</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>

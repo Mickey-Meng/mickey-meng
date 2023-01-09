@@ -1,7 +1,7 @@
-package com.mickeymeng.framework.module.pay.dal.dataobject.merchant;
+package cn.iocoder.yudao.module.pay.dal.dataobject.merchant;
 
-import com.mickeymeng.framework.common.util.json.JsonUtils;
-import com.mickeymeng.framework.module.pay.core.client.impl.wx.WXPayClientConfig;
+import cn.iocoder.yudao.framework.common.util.json.JsonUtils;
+import cn.iocoder.yudao.framework.pay.core.client.impl.wx.WXPayClientConfig;
 import org.junit.jupiter.api.Test;
 
 public class PayChannelDOTest {

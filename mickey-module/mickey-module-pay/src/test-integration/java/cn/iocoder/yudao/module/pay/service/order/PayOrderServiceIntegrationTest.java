@@ -1,13 +1,13 @@
-package com.mickeymeng.framework.module.pay.service.order;
+package cn.iocoder.yudao.module.pay.service.order;
 
-import com.mickeymeng.framework.module.pay.service.merchant.PayAppServiceImpl;
-import com.mickeymeng.framework.module.pay.service.merchant.PayChannelServiceImpl;
-import com.mickeymeng.framework.module.pay.service.order.dto.PayOrderCreateReqDTO;
-import com.mickeymeng.framework.module.pay.service.order.dto.PayOrderSubmitReqDTO;
-import com.mickeymeng.framework.module.pay.test.BaseDbIntegrationTest;
-import com.mickeymeng.framework.common.util.date.DateUtils;
-import com.mickeymeng.framework.module.pay.config.YudaoPayAutoConfiguration;
-import com.mickeymeng.framework.module.pay.core.enums.PayChannelEnum;
+import cn.iocoder.yudao.module.pay.service.merchant.PayAppServiceImpl;
+import cn.iocoder.yudao.module.pay.service.merchant.PayChannelServiceImpl;
+import cn.iocoder.yudao.module.pay.service.order.dto.PayOrderCreateReqDTO;
+import cn.iocoder.yudao.module.pay.service.order.dto.PayOrderSubmitReqDTO;
+import cn.iocoder.yudao.module.pay.test.BaseDbIntegrationTest;
+import cn.iocoder.yudao.framework.common.util.date.DateUtils;
+import cn.iocoder.yudao.framework.pay.config.YudaoPayAutoConfiguration;
+import cn.iocoder.yudao.framework.pay.core.enums.PayChannelEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.Import;
 

@@ -84,10 +84,10 @@ resilience4j:
 
 --- #################### 芋道相关配置 ####################
 
-yudao:
+mickey:
   info:
     version: 1.0.0
-    base-package: com.mickeymeng.module
+    base-package: cn.iocoder.yudao.module
   pay:
     pay-notify-url: http://niubi.natapp1.cc/api/pay/order/notify
     refund-notify-url: http://niubi.natapp1.cc/api/pay/refund/notify

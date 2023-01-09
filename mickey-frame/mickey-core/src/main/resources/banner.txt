@@ -1,0 +1,2 @@
+Application Version: ${mickey.info.version}
+Spring Boot Version: ${spring-boot.version}

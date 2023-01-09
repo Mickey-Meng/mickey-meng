@@ -2,11 +2,11 @@ package com.mickeymeng.lunch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@SpringBootApplication
+@SuppressWarnings("SpringComponentScan") // 忽略 IDEA 无法识别 ${mickey.info.base-package}
+//@SpringBootApplication(scanBasePackages = {"${mickey.info.base-package}.lunch", "${mickey.info.base-package}.module"})
 public class MickeyServerApplication implements WebMvcConfigurer {
 
     @Override
@@ -24,6 +24,9 @@ public class MickeyServerApplication implements WebMvcConfigurer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MickeyServerApplication.class, args);
+        //SpringApplication.run(MickeyServerApplication.class, args);
+        SpringApplication springApplication = new SpringApplication(MickeyServerApplication.class);
+        springApplication.setAllowCircularReferences(Boolean.TRUE);
+        springApplication.run(args);
     }
 }

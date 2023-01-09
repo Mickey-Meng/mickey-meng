@@ -1,10 +1,10 @@
 package com.mickeymeng.server.controller;
 
-import com.mickeymeng.framework.common.pojo.CommonResult;
+import cn.iocoder.yudao.framework.common.pojo.CommonResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.mickeymeng.framework.common.exception.enums.GlobalErrorCodeConstants.NOT_IMPLEMENTED;
+import static cn.iocoder.yudao.framework.common.exception.enums.GlobalErrorCodeConstants.NOT_IMPLEMENTED;
 
 /**
  * 默认 Controller，解决部分 module 未开启时的 404 提示。

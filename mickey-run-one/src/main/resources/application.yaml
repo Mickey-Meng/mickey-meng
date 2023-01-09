@@ -85,7 +85,7 @@ aj:
 mickey:
   info:
     version: 1.0.0
-    base-package: com.mickeymeng
+    base-package: cn.iocoder.yudao
   web:
     admin-ui:
       url: http://www.mickeymeng.com # Admin 管理后台 UI 的地址

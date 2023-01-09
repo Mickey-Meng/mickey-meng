@@ -1,1 +1,1 @@
-com.mickeymeng.framework.captcha.core.service.RedisCaptchaServiceImpl
+com.mickeymeng.framework.middleware.captcha.core.service.RedisCaptchaServiceImpl

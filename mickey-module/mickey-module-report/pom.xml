@@ -15,14 +15,15 @@
     <dependencies>
         <dependency>
             <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-common</artifactId>
+            <artifactId>mickey-core</artifactId>
             <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-core</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <artifactId>mickey-admin-api</artifactId>
+            <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

@@ -1,6 +1,6 @@
-package com.mickeymeng.framework.module.pay.test;
+package cn.iocoder.yudao.module.pay.test;
 
-import com.mickeymeng.framework.redis.config.YudaoRedisAutoConfiguration;
+import cn.iocoder.yudao.framework.redis.config.YudaoRedisAutoConfiguration;
 import org.redisson.spring.starter.RedissonAutoConfiguration;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,12 +1,12 @@
-package com.mickeymeng.framework.module.pay.dal.mysql.merchant;
+package cn.iocoder.yudao.module.pay.dal.mysql.merchant;
 
 import cn.hutool.core.io.IoUtil;
-import com.mickeymeng.framework.module.pay.dal.dataobject.merchant.PayChannelDO;
-import com.mickeymeng.framework.common.enums.CommonStatusEnum;
-import com.mickeymeng.framework.module.pay.core.client.impl.alipay.AlipayPayClientConfig;
-import com.mickeymeng.framework.module.pay.core.client.impl.wx.WXPayClientConfig;
-import com.mickeymeng.framework.module.pay.core.enums.PayChannelEnum;
-import com.mickeymeng.framework.module.pay.test.BaseDbIntegrationTest;
+import cn.iocoder.yudao.module.pay.dal.dataobject.merchant.PayChannelDO;
+import cn.iocoder.yudao.framework.common.enums.CommonStatusEnum;
+import cn.iocoder.yudao.framework.pay.core.client.impl.alipay.AlipayPayClientConfig;
+import cn.iocoder.yudao.framework.pay.core.client.impl.wx.WXPayClientConfig;
+import cn.iocoder.yudao.framework.pay.core.enums.PayChannelEnum;
+import cn.iocoder.yudao.module.pay.test.BaseDbIntegrationTest;
 import org.junit.jupiter.api.Test;
 
 import javax.annotation.Resource;

@@ -1,2 +1,2 @@
 org.springframework.boot.env.EnvironmentPostProcessor=\
-  com.mickeymeng.framework.mybatis.config.IdTypeEnvironmentPostProcessor
+com.mickeymeng.framework.middleware.mybatis.mybatis.config.IdTypeEnvironmentPostProcessor

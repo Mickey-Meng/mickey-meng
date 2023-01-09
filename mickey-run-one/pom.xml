@@ -14,22 +14,30 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!--<dependency>
-            <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-admin</artifactId>
-            <version>${revision}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-api</artifactId>
-            <version>${revision}</version>
-        </dependency>-->
-
         <dependency>
             <groupId>com.mickeymeng</groupId>
             <artifactId>mickey-common</artifactId>
             <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-admin-system</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-admin-infra</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-module-pay</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -56,4 +64,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

@@ -20,19 +20,21 @@
         <module name="mickey-run-one" />
         <module name="mickey-admin-infra" />
         <module name="mickey-module-report" />
-        <module name="mickey-module-weixin" />
-        <module name="mickey-logging" />
         <module name="mickey-api-member" />
         <module name="mickey-admin-system" />
         <module name="mickey-ui" />
         <module name="mickey-common" />
+        <module name="mickey-admin-api" />
         <module name="mickey-module-bpm" />
-        <module name="mickey-junit-test" />
         <module name="mickey-core" />
-        <module name="mickey-middleware" />
         <module name="mickey-module-pay" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="mickey-junit-test" target="17" />
+      <module name="mickey-logging" target="17" />
+      <module name="mickey-middleware" target="17" />
+      <module name="mickey-module-weixin" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
