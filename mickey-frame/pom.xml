@@ -18,6 +18,7 @@
         <module>mickey-middleware</module>
         <module>mickey-logging</module>
         <module>mickey-junit-test</module>
+        <module>mickey-common-api</module>
     </modules>
 
 </project>

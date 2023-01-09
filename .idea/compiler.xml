@@ -26,6 +26,7 @@
         <module name="mickey-common" />
         <module name="mickey-admin-api" />
         <module name="mickey-module-bpm" />
+        <module name="mickey-common-api" />
         <module name="mickey-core" />
         <module name="mickey-module-pay" />
       </profile>
