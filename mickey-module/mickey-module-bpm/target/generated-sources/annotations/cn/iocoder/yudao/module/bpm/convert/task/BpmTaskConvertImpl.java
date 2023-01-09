@@ -15,7 +15,7 @@ import org.flowable.task.api.history.HistoricTaskInstance;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-09T13:47:11+0800",
+    date = "2023-01-09T19:28:12+0800",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 public class BpmTaskConvertImpl implements BpmTaskConvert {

@@ -16,12 +16,4 @@
         管理系统对外接口依赖模块
     </description>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-common</artifactId>
-            <version>${revision}</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 </project>

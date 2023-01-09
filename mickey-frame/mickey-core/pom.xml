@@ -26,9 +26,11 @@
 
         <dependency>
             <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-admin-api</artifactId>
+            <artifactId>mickey-common-api</artifactId>
             <version>${revision}</version>
+            <scope>compile</scope>
         </dependency>
+
     </dependencies>
 
 </project>
