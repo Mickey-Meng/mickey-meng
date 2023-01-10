@@ -13,7 +13,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-09T19:28:18+0800",
+    date = "2023-01-10T13:30:28+0800",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 public class OperateLogConvertImpl implements OperateLogConvert {

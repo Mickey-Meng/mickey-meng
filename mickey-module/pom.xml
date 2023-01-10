@@ -13,10 +13,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>mickey-module-pay</module>
-        <module>mickey-module-bpm</module>
-        <module>mickey-module-weixin</module>
-        <module>mickey-module-report</module>
+        <module>mickey-module-api</module>
+        <module>mickey-module-support</module>
+        <module>mickey-module-business</module>
     </modules>
 
 </project>

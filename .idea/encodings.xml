@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/mickey-admin/mickey-admin-system/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-mall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-mall/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-member/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-api/mickey-api-member/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-api/src/main/java" charset="UTF-8" />
@@ -27,12 +29,50 @@
     <file url="file://$PROJECT_DIR$/mickey-frame/mickey-middleware/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-frame/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-frame/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/mickey-api-mall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/mickey-api-mall/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/mickey-api-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/mickey-api-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-bpm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-bpm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-promotion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-promotion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-trade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/mickey-mall-trade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-promotion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-promotion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-trade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/mickey-mall-trade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-mall/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-pay/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-pay/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-report/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-bpm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-bpm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-sso/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-weixin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/mickey-module-weixin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-support/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mickey-module/mickey-module-weixin/src/test-integration/java" charset="UTF-8" />
