@@ -16,7 +16,6 @@
     <modules>
         <module>mickey-admin</module>
         <module>mickey-frame</module>
-        <module>mickey-api</module>
         <module>mickey-ui</module>
         <module>mickey-run-one</module>
         <module>mickey-module</module>

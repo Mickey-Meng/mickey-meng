@@ -15,6 +15,7 @@
     <modules>
         <module>mickey-module-member</module>
         <module>mickey-module-mall</module>
+        <module>mickey-module-community</module>
     </modules>
 
 </project>

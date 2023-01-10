@@ -33,6 +33,7 @@
         <module name="mickey-api-mall" />
         <module name="mickey-mall-product" />
         <module name="mickey-common-api" />
+        <module name="mickey-module-community" />
         <module name="mickey-core" />
         <module name="mickey-module-member" />
         <module name="mickey-module-pay" />
