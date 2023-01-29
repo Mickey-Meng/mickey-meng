@@ -6,6 +6,7 @@ export interface NoticeVO {
   type: number
   content: string
   status: number
+  channel: number
   remark: string
   creator: string
   createTime: Date

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "生活",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-gap": "/uview-ui/components/u-gap/u-gap"
+  }
+}

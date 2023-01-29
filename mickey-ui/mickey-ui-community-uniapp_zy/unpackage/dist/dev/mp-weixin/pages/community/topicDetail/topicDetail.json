@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "帖子",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-mask": "/uview-ui/components/u-mask/u-mask",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-field": "/uview-ui/components/u-field/u-field"
+  }
+}

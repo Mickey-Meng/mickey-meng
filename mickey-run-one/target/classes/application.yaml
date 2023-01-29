@@ -88,7 +88,7 @@ mickey:
     base-package: cn.iocoder.yudao
   web:
     admin-ui:
-      url: http://www.mickeymeng.com # Admin 管理后台 UI 的地址
+      url: http://localhost:9696/admin-ui/index.html # Admin 管理后台 UI 的地址
   security:
     permit-all_urls:
       - /admin-ui/** # /resources/admin-ui 目录下的静态资源

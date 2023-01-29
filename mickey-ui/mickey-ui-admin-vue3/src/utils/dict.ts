@@ -81,6 +81,7 @@ export enum DICT_TYPE {
   SYSTEM_ROLE_TYPE = 'system_role_type',
   SYSTEM_DATA_SCOPE = 'system_data_scope',
   SYSTEM_NOTICE_TYPE = 'system_notice_type',
+  SYSTEM_NOTICE_CHANNEL = 'system_notice_channel',
   SYSTEM_OPERATE_TYPE = 'system_operate_type',
   SYSTEM_LOGIN_TYPE = 'system_login_type',
   SYSTEM_LOGIN_RESULT = 'system_login_result',

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "手机验证码登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-verification-code": "/uview-ui/components/u-verification-code/u-verification-code"
+  }
+}

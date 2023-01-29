@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "访客邀请",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

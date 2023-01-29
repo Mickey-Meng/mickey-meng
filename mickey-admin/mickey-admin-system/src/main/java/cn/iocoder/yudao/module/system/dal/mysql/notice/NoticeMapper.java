@@ -4,8 +4,11 @@ import cn.iocoder.yudao.framework.common.pojo.PageResult;
 import cn.iocoder.yudao.framework.mybatis.core.mapper.BaseMapperX;
 import cn.iocoder.yudao.framework.mybatis.core.query.LambdaQueryWrapperX;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticePageReqVO;
+import cn.iocoder.yudao.module.system.controller.app.notice.vo.AppNoticeReqVO;
 import cn.iocoder.yudao.module.system.dal.dataobject.notice.NoticeDO;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 @Mapper
 public interface NoticeMapper extends BaseMapperX<NoticeDO> {
@@ -15,6 +18,14 @@ public interface NoticeMapper extends BaseMapperX<NoticeDO> {
                 .likeIfPresent(NoticeDO::getTitle, reqVO.getTitle())
                 .eqIfPresent(NoticeDO::getStatus, reqVO.getStatus())
                 .orderByDesc(NoticeDO::getId));
+    }
+
+    default List<NoticeDO> selectList(AppNoticeReqVO reqVO) {
+        return selectList(new LambdaQueryWrapperX<NoticeDO>()
+                .eqIfPresent(NoticeDO::getType, reqVO.getType())
+                .eqIfPresent(NoticeDO::getStatus, reqVO.getStatus())
+                .eqIfPresent(NoticeDO::getChannel, reqVO.getChannel())
+                .orderByDesc(NoticeDO::getCreateTime));
     }
 
 }

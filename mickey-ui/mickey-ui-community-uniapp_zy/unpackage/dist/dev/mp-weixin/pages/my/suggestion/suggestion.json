@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "问题反馈",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

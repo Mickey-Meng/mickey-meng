@@ -11,7 +11,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-10T13:30:27+0800",
+    date = "2023-01-29T19:56:11+0800",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 public class MenuConvertImpl implements MenuConvert {
@@ -39,6 +39,7 @@ public class MenuConvertImpl implements MenuConvert {
         MenuDO menuDO = new MenuDO();
 
         menuDO.setName( bean.getName() );
+        menuDO.setMenuCode( bean.getMenuCode() );
         menuDO.setPermission( bean.getPermission() );
         menuDO.setType( bean.getType() );
         menuDO.setSort( bean.getSort() );
@@ -63,6 +64,7 @@ public class MenuConvertImpl implements MenuConvert {
 
         menuDO.setId( bean.getId() );
         menuDO.setName( bean.getName() );
+        menuDO.setMenuCode( bean.getMenuCode() );
         menuDO.setPermission( bean.getPermission() );
         menuDO.setType( bean.getType() );
         menuDO.setSort( bean.getSort() );
@@ -86,6 +88,7 @@ public class MenuConvertImpl implements MenuConvert {
         MenuRespVO menuRespVO = new MenuRespVO();
 
         menuRespVO.setName( bean.getName() );
+        menuRespVO.setMenuCode( bean.getMenuCode() );
         menuRespVO.setPermission( bean.getPermission() );
         menuRespVO.setType( bean.getType() );
         menuRespVO.setSort( bean.getSort() );

@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/login/phoneLogin/phoneLogin",
+    "pages/community/community",
+    "pages/my/my",
+    "pages/life/life",
+    "pages/index/moreActivity/moreActivity",
+    "pages/my/basicInfo/basicInfo",
+    "pages/my/bindPhone/bindPhone",
+    "pages/my/authentication/authentication",
+    "pages/my/about/about",
+    "pages/my/suggestion/suggestion",
+    "pages/community/moreActivity/moreActivity",
+    "pages/index/showCard/showCard",
+    "pages/index/family/family",
+    "pages/index/servicePhone/servicePhone",
+    "pages/index/complaint/complaint",
+    "pages/index/suggestion/suggestion",
+    "pages/index/visitor/visitor",
+    "pages/login/bindLoginInfo/bindLoginInfo",
+    "pages/life/bindHourse/bindHourse",
+    "pages/index/rooms/rooms",
+    "pages/my/waitHandle/waitHandle",
+    "pages/index/visitor/moreVisitors/moreVisitors",
+    "pages/community/postTopic/postTopic",
+    "pages/community/topicDetail/topicDetail",
+    "pages/index/fix/fix",
+    "pages/life/queryPost/queryPost",
+    "pages/my/parkingArea/index/index",
+    "pages/my/parkingArea/parkingSpace/index",
+    "pages/life/applyFor/applyForSpace",
+    "pages/life/applyFor/applyForArea",
+    "pages/my/parkingArea/applyFor/cAFPS"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "织羽社区",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index_selected.png"
+      },
+      {
+        "pagePath": "pages/life/life",
+        "text": "生活",
+        "iconPath": "static/tabbar/life.png",
+        "selectedIconPath": "static/tabbar/life_selected.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tabbar/community.png",
+        "selectedIconPath": "static/tabbar/community_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my_selected.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于定位检修地点"
+    }
+  },
+  "usingComponents": {}
+}

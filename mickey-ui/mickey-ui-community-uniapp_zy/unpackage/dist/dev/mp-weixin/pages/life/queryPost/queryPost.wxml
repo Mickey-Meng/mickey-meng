@@ -1,0 +1,1 @@
+<view class="queryPostPage"><u-search vue-id="3dc05f3f-1" placeholder="请输入订单号" clearabled="{{true}}" show-action="{{false}}" data-event-opts="{{[['^search',[['findOrderInfo']]]]}}" bind:search="__e" bind:__l="__l"></u-search></view>

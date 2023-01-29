@@ -23,6 +23,13 @@ const crudSchemas = reactive<VxeCrudSchema>({
       isSearch: true
     },
     {
+      title: '通知渠道',
+      field: 'channel',
+      dictType: DICT_TYPE.SYSTEM_NOTICE_CHANNEL,
+      dictClass: 'number',
+      isSearch: true
+    },
+    {
       title: '公告类型',
       field: 'type',
       dictType: DICT_TYPE.SYSTEM_NOTICE_TYPE,
@@ -56,7 +63,13 @@ const crudSchemas = reactive<VxeCrudSchema>({
       title: t('common.createTime'),
       field: 'createTime',
       formatter: 'formatDate',
-      isForm: false
+      isForm: false,
+      search: {
+        show: true,
+        itemRender: {
+          name: 'XDataTimePicker'
+        }
+      }
     }
   ]
 })

@@ -5,6 +5,7 @@ import cn.iocoder.yudao.framework.common.pojo.PageResult;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticeCreateReqVO;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticePageReqVO;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticeUpdateReqVO;
+import cn.iocoder.yudao.module.system.controller.app.notice.vo.AppNoticeReqVO;
 import cn.iocoder.yudao.module.system.convert.notice.NoticeConvert;
 import cn.iocoder.yudao.module.system.dal.mysql.notice.NoticeMapper;
 import cn.iocoder.yudao.module.system.dal.dataobject.notice.NoticeDO;
@@ -12,6 +13,8 @@ import com.google.common.annotations.VisibleForTesting;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+
+import java.util.List;
 
 import static cn.iocoder.yudao.module.system.enums.ErrorCodeConstants.NOTICE_NOT_FOUND;
 
@@ -69,6 +72,11 @@ public class NoticeServiceImpl implements NoticeService {
         if (notice == null) {
             throw ServiceExceptionUtil.exception(NOTICE_NOT_FOUND);
         }
+    }
+
+    @Override
+    public List<NoticeDO> getAppNoticeList(AppNoticeReqVO reqVO) {
+        return noticeMapper.selectList(reqVO);
     }
 
 }

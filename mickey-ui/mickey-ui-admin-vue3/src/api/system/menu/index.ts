@@ -3,6 +3,7 @@ import request from '@/config/axios'
 export interface MenuVO {
   id: number
   name: string
+  menuCode: string
   permission: string
   type: number
   sort: number

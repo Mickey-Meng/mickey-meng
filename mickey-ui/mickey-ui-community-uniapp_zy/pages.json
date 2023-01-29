@@ -1,0 +1,320 @@
+{
+	"easycom": {
+		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		// npm安装方式
+		//"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		}
+
+
+		, {
+			"path": "pages/login/phoneLogin/phoneLogin",
+			"style": {
+				"navigationBarTitleText": "手机验证码登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/life/life",
+			"style": {
+				"navigationBarTitleText": "生活",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/moreActivity/moreActivity",
+			"style": {
+				"navigationBarTitleText": "社区活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/basicInfo/basicInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/bindPhone/bindPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/authentication/authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/about/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/suggestion/suggestion",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/community/moreActivity/moreActivity",
+			"style": {
+				"navigationBarTitleText": "互动列表",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/index/showCard/showCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "身份卡",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/family/family",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "住户成员",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/servicePhone/servicePhone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务热线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/complaint/complaint",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投诉热线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/suggestion/suggestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投诉意见",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/visitor/visitor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客邀请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/bindLoginInfo/bindLoginInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息绑定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/life/bindHourse/bindHourse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房屋绑定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/rooms/rooms",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的房屋",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/waitHandle/waitHandle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的代办",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/visitor/moreVisitors/moreVisitors",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/postTopic/postTopic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发帖",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/topicDetail/topicDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帖子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/fix/fix",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报事报修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/life/queryPost/queryPost",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快递查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/parkingArea/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/parkingArea/parkingSpace/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/life/applyFor/applyForSpace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/life/applyFor/applyForArea",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/parkingArea/applyFor/cAFPS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "织羽社区",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index_selected.png"
+			},
+			{
+				"pagePath": "pages/life/life",
+				"text": "生活",
+				"iconPath": "static/tabbar/life.png",
+				"selectedIconPath": "static/tabbar/life_selected.png"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"text": "社区",
+				"iconPath": "static/tabbar/community.png",
+				"selectedIconPath": "static/tabbar/community_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_selected.png"
+			}
+		]
+	}
+}

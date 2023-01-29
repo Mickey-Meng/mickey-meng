@@ -38,6 +38,19 @@ const crudSchemas = reactive<VxeCrudSchema>({
       }
     },
     {
+      title: '菜单编码',
+      field: 'menuCode',
+      isSearch: true,
+      table: {
+        treeNode: true,
+        align: 'left',
+        width: '200px',
+        slots: {
+          default: 'code_default'
+        }
+      }
+    },
+    {
       title: '菜单类型',
       field: 'type',
       dictType: DICT_TYPE.SYSTEM_MENU_TYPE

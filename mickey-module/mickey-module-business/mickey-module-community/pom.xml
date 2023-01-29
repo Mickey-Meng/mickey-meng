@@ -11,4 +11,25 @@
 
     <artifactId>mickey-module-community</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-common</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-core</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-api-community</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
 </project>

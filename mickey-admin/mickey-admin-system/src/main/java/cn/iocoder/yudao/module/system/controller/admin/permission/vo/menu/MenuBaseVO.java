@@ -11,6 +11,7 @@ import javax.validation.constraints.Size;
 /**
  * 菜单 Base VO，提供给添加、修改、详细的子 VO 使用
  * 如果子 VO 存在差异的字段，请不要添加到这里，影响 Swagger 文档生成
+ *
  */
 @Data
 @Accessors(chain = true)
@@ -20,6 +21,10 @@ public class MenuBaseVO {
     @NotBlank(message = "菜单名称不能为空")
     @Size(max = 50, message = "菜单名称长度不能超过50个字符")
     private String name;
+
+    @ApiModelProperty(value = "菜单编码", required = true, example = "00-01-01-01")
+    @Size(max = 50, message = "菜单名称长度不能超过50个字符")
+    private String menuCode;
 
     @ApiModelProperty(value = "权限标识", example = "sys:menu:add", notes = "仅菜单类型为按钮时，才需要传递")
     @Size(max = 100)

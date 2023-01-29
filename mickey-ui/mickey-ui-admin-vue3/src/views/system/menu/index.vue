@@ -18,6 +18,10 @@
         <Icon :icon="row.icon" />
         <span class="ml-3">{{ row.name }}</span>
       </template>
+      <template #code_default="{ row }">
+        <Icon :icon="row.icon" />
+        <span class="ml-3">{{ row.menuCode }}</span>
+      </template>
       <template #actionbtns_default="{ row }">
         <!-- 操作：修改 -->
         <XTextButton
@@ -231,6 +235,7 @@ const formRef = ref<FormInstance>()
 const menuForm = ref<MenuApi.MenuVO>({
   id: 0,
   name: '',
+  menuCode: '',
   permission: '',
   type: SystemMenuTypeEnum.DIR,
   sort: 1,
@@ -273,6 +278,7 @@ const handleCreate = () => {
   menuForm.value = {
     id: 0,
     name: '',
+    menuCode: '',
     permission: '',
     type: SystemMenuTypeEnum.DIR,
     sort: 1,

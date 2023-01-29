@@ -4,7 +4,10 @@ import cn.iocoder.yudao.framework.common.pojo.PageResult;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticeCreateReqVO;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticePageReqVO;
 import cn.iocoder.yudao.module.system.controller.admin.notice.vo.NoticeUpdateReqVO;
+import cn.iocoder.yudao.module.system.controller.app.notice.vo.AppNoticeReqVO;
 import cn.iocoder.yudao.module.system.dal.dataobject.notice.NoticeDO;
+
+import java.util.List;
 
 /**
  * 通知公告 Service 接口
@@ -49,4 +52,5 @@ public interface NoticeService {
      */
     NoticeDO getNotice(Long id);
 
+    List<NoticeDO> getAppNoticeList(AppNoticeReqVO reqVO);
 }

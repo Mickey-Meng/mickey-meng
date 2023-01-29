@@ -26,6 +26,7 @@
         <module name="mickey-api-member" />
         <module name="mickey-admin-system" />
         <module name="mickey-ui" />
+        <module name="mickey-api-community" />
         <module name="mickey-common" />
         <module name="mickey-mall-promotion" />
         <module name="mickey-admin-api" />

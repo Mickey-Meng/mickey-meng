@@ -21,6 +21,7 @@
     <modules>
         <module>mickey-api-member</module>
         <module>mickey-api-mall</module>
+        <module>mickey-api-community</module>
     </modules>
 
     <dependencies>

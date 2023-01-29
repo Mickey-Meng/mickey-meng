@@ -32,6 +32,10 @@ public class MenuDO extends BaseDO {
      */
     private String name;
     /**
+     * 菜单编码
+     */
+    private String menuCode;
+    /**
      * 权限标识
      *
      * 一般格式为：${系统}:${模块}:${操作}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "社区",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

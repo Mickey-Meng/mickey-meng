@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "快递查询",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

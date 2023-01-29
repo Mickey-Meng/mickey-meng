@@ -123,7 +123,7 @@ VXETable.setup({
     transfer: true, // 是否将弹框容器插入于 body 内
     showFooter: true, // 是否显示底部
     mask: true, // 是否显示遮罩层
-    maskClosable: true, // 是否允许点击遮罩层关闭窗口
+    maskClosable: false, // 是否允许点击遮罩层关闭窗口
     escClosable: true // 是否允许按 Esc 键关闭窗口
   },
   i18n: (key, args) => {

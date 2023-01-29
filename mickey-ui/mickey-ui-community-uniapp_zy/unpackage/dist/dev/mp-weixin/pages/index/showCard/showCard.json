@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "身份卡",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "u-select": "/uview-ui/components/u-select/u-select"
+  }
+}

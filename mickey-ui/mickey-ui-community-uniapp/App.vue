@@ -1,34 +1,34 @@
 <script>
-  import config from './config'
-  import store from '@/store'
-  import { getAccessToken } from '@/utils/auth'
-
-  export default {
-    onLaunch: function() {
-      this.initApp()
-    },
-    methods: {
-      // 初始化应用
-      initApp() {
-        // 初始化应用配置
-        this.initConfig()
-        // 检查用户登录状态
-        //#ifdef H5
-        this.checkLogin()
-        //#endif
-      },
-      initConfig() {
-        this.globalData.config = config
-      },
-      checkLogin() {
-        if (!getAccessToken()) {
-          this.$tab.reLaunch('/pages/login')
-        }
-      }
+export default {
+  onLaunch: function () {
+    console.log('App Launch')
+    // #ifdef H5
+    //在页面加载时读取sessionStorage里的状态信息
+    if (sessionStorage.getItem('store')) {
+      this.$store.replaceState(Object.assign({}, this.$store.state, JSON.parse(sessionStorage.getItem('store'))))
     }
+    //在页面刷新时将vuex里的信息保存到sessionStorage里
+    window.addEventListener('beforeunload', () => {
+      sessionStorage.setItem('store', JSON.stringify(this.$store.state))
+    })
+    // #endif
+  },
+  onShow: function () {
+    console.log('App Show')
+  },
+  onHide: function () {
+    console.log('App Hide')
   }
+}
 </script>
 
 <style lang="scss">
-  @import '@/static/scss/index.scss'
+/** 引入全局基本样式 */
+@import 'styles/base.scss';
+
+/* 引入 uView 基础样式 */
+@import '@/uni_modules/uview-ui/index.scss';
+
+/*每个页面公共scss */
+@import 'app.scss';
 </style>
