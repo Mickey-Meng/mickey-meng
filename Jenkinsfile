@@ -30,7 +30,7 @@ pipeline {
         stage('检出') {
             steps {
                 git url: "https://gitee.com/mickey_meng/mickey-meng.git",
-                        branch: "devops"
+                        branch: "master"
             }
         }
 
