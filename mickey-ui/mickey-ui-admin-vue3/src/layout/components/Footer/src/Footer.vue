@@ -19,7 +19,7 @@ const title = computed(() => appStore.getTitle)
   >
     <p style="font-size: 14px"
       >Copyright ©2023-{{ title }} 版权所有 |
-      <a href="https://beian.miit.gov.cn" target="_blank">陕ICP备2023000880号-1</a> |
+      <a href="https://beian.miit.gov.cn" target="_blank">陕ICP备 2023000880号-1</a> |
       <a
         target="_blank"
         href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61019002002343"
