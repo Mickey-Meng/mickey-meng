@@ -130,6 +130,7 @@ D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\mq\consumer\sensitiveword\SensitiveWordRefreshConsumer.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\dal\redis\oauth2\OAuth2AccessTokenRedisDAO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\permission\vo\menu\MenuSimpleRespVO.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\app\notice\AppNoticeController.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\service\permission\MenuServiceImpl.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\dal\mysql\dict\DictTypeMapper.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\user\vo\user\UserRespVO.java
@@ -239,6 +240,7 @@ D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\dal\dataobject\permission\RoleMenuDO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\service\sms\SmsSendServiceImpl.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\dept\PostController.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\app\notice\vo\AppNoticeRespVO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\user\UserController.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\mq\consumer\permission\RoleMenuRefreshConsumer.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\service\sms\SmsTemplateService.java
@@ -318,6 +320,7 @@ D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\auth\AuthController.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\user\vo\user\UserUpdatePasswordReqVO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\service\tenant\TenantPackageService.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\app\notice\vo\AppNoticeReqVO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\ip\AreaController.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\dept\vo\dept\DeptUpdateReqVO.java
 D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-admin\mickey-admin-system\src\main\java\cn\iocoder\yudao\module\system\controller\admin\dept\vo\post\PostPageReqVO.java

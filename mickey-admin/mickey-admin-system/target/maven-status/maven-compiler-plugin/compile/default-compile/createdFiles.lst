@@ -89,6 +89,7 @@ cn\iocoder\yudao\module\system\controller\admin\dict\vo\data\DictDataUpdateReqVO
 cn\iocoder\yudao\module\system\controller\admin\permission\vo\role\RoleRespVO.class
 cn\iocoder\yudao\module\system\dal\dataobject\user\AdminUserDO.class
 cn\iocoder\yudao\module\system\mq\consumer\sms\SmsChannelRefreshConsumer.class
+cn\iocoder\yudao\module\system\controller\app\notice\vo\AppNoticeReqVO.class
 cn\iocoder\yudao\module\system\dal\dataobject\oauth2\OAuth2CodeDO.class
 cn\iocoder\yudao\module\system\convert\logger\LoginLogConvertImpl.class
 cn\iocoder\yudao\module\system\controller\admin\dept\vo\post\PostCreateReqVO.class
@@ -196,6 +197,7 @@ cn\iocoder\yudao\module\system\controller\admin\dict\DictTypeController.class
 cn\iocoder\yudao\module\system\controller\admin\permission\vo\role\RoleUpdateReqVO.class
 cn\iocoder\yudao\module\system\controller\admin\sms\vo\template\SmsTemplateExcelVO.class
 cn\iocoder\yudao\module\system\controller\admin\user\UserProfileController.class
+cn\iocoder\yudao\module\system\controller\app\notice\AppNoticeController.class
 cn\iocoder\yudao\module\system\controller\admin\oauth2\vo\user\OAuth2UserInfoRespVO$Post.class
 cn\iocoder\yudao\module\system\api\sms\SmsSendApiImpl.class
 cn\iocoder\yudao\module\system\controller\admin\sms\vo\log\SmsLogExcelVO.class
@@ -271,6 +273,7 @@ cn\iocoder\yudao\module\system\controller\admin\auth\vo\AuthSmsSendReqVO$AuthSms
 cn\iocoder\yudao\module\system\controller\admin\user\vo\user\UserBaseVO.class
 cn\iocoder\yudao\module\system\api\permission\RoleApiImpl.class
 cn\iocoder\yudao\module\system\convert\social\SocialUserConvertImpl.class
+cn\iocoder\yudao\module\system\controller\app\notice\vo\AppNoticeRespVO.class
 cn\iocoder\yudao\module\system\service\dict\DictTypeService.class
 cn\iocoder\yudao\module\system\service\tenant\TenantPackageServiceImpl.class
 cn\iocoder\yudao\module\system\controller\admin\oauth2\vo\client\OAuth2ClientRespVO.class
