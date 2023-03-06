@@ -1,7 +1,7 @@
 <template>
   <div
     :class="prefixCls"
-    class="h-[95%] relative <xl:bg-v-dark <sm:px-10px <xl:px-10px <md:px-10px"
+    class="h-[100%] relative <xl:bg-v-dark <sm:px-10px <xl:px-10px <md:px-10px"
   >
     <div class="relative h-full flex mx-auto">
       <div
@@ -56,9 +56,6 @@
         </Transition>
       </div>
     </div>
-    <div class="h-[5%] relative <xl:bg-v-dark <sm:px-10px <xl:px-10px <md:px-10px">
-      <Footer />
-    </div>
   </div>
 </template>
 <script setup lang="ts">
@@ -68,7 +65,6 @@ import { useDesign } from '@/hooks/web/useDesign'
 import { useAppStore } from '@/store/modules/app'
 import { ThemeSwitch } from '@/layout/components/ThemeSwitch'
 import { LocaleDropdown } from '@/layout/components/LocaleDropdown'
-import { Footer } from '@/layout/components/Footer'
 import { LoginForm, MobileForm, RegisterForm, QrCodeForm } from './components'
 
 const { t } = useI18n()
