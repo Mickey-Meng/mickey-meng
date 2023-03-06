@@ -18,7 +18,7 @@ import org.flowable.task.api.Task;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-10T13:30:22+0800",
+    date = "2023-03-05T17:10:54+0800",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 public class BpmProcessInstanceConvertImpl implements BpmProcessInstanceConvert {

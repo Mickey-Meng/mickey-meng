@@ -19,23 +19,12 @@
     </description>
 
     <modules>
-        <module>mickey-api-member</module>
-        <module>mickey-api-mall</module>
         <module>mickey-api-community</module>
+        <module>mickey-api-finance</module>
+        <!--
+        <module>mickey-api-mall</module>
+        <module>mickey-api-member</module>
+        -->
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-common</artifactId>
-            <version>${revision}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.mickeymeng</groupId>
-            <artifactId>mickey-core</artifactId>
-            <version>${revision}</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 </project>

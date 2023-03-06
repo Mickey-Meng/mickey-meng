@@ -11,25 +11,23 @@
 
     <artifactId>mickey-module-member</artifactId>
 
-
     <dependencies>
         <dependency>
             <groupId>com.mickeymeng</groupId>
             <artifactId>mickey-api-member</artifactId>
             <version>${revision}</version>
-            <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.mickeymeng</groupId>
             <artifactId>mickey-common</artifactId>
             <version>${revision}</version>
-            <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.mickeymeng</groupId>
             <artifactId>mickey-core</artifactId>
             <version>${revision}</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 

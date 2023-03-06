@@ -13,9 +13,14 @@
     <packaging>pom</packaging>
 
     <modules>
+
+        <module>mickey-module-community</module>
+        <module>mickey-module-finance</module>
+        <!--
         <module>mickey-module-member</module>
         <module>mickey-module-mall</module>
-        <module>mickey-module-community</module>
+        -->
+
     </modules>
 
 </project>

@@ -1,5 +1,5 @@
-D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayMerchantServiceTest.java
-D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\order\PayOrderServiceTest.java
-D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayAppServiceTest.java
-D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayChannelServiceTest.java
-D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\refund\PayRefundServiceTest.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-support\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\order\PayOrderServiceTest.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-support\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayAppServiceTest.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-support\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayChannelServiceTest.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-support\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\merchant\PayMerchantServiceTest.java
+D:\WorkSpace\WebWorkSpace\mickey-meng\mickey-module\mickey-module-support\mickey-module-pay\src\test\java\cn\iocoder\yudao\module\pay\service\refund\PayRefundServiceTest.java

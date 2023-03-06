@@ -1,0 +1,5 @@
+cn\iocoder\yudao\module\pay\service\merchant\PayChannelServiceTest.class
+cn\iocoder\yudao\module\pay\service\order\PayOrderServiceTest.class
+cn\iocoder\yudao\module\pay\service\refund\PayRefundServiceTest.class
+cn\iocoder\yudao\module\pay\service\merchant\PayMerchantServiceTest.class
+cn\iocoder\yudao\module\pay\service\merchant\PayAppServiceTest.class

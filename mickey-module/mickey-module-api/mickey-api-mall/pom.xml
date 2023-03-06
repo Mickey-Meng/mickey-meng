@@ -11,10 +11,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mickey-api-mall</artifactId>
+    <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
     <description>
         mickey-api-mall
         商城API
     </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-common</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
 </project>
