@@ -47,6 +47,13 @@
             <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.mickeymeng</groupId>
+            <artifactId>mickey-module-finance</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
