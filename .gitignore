@@ -20,3 +20,4 @@ bin-release/
 **/.idea
 /target/
 **/target
+/mickey-run-one/target/

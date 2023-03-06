@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mickey-frame/mickey-junit-test/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -13,6 +14,8 @@
         <option value="$PROJECT_DIR$/mickey-frame/mickey-junit-test/pom.xml" />
         <option value="$PROJECT_DIR$/mickey-frame/mickey-logging/pom.xml" />
         <option value="$PROJECT_DIR$/mickey-frame/mickey-middleware/pom.xml" />
+        <option value="$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-mall/pom.xml" />
+        <option value="$PROJECT_DIR$/mickey-module/mickey-module-business/mickey-module-member/pom.xml" />
         <option value="$PROJECT_DIR$/mickey-module/mickey-module-community/pom.xml" />
         <option value="$PROJECT_DIR$/mickey-module/mickey-module-weixin/pom.xml" />
       </set>
