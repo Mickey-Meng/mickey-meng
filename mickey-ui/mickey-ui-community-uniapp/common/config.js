@@ -1,6 +1,6 @@
 module.exports = {
   //后端接口地址
-  baseUrl: 'http://127.0.0.1:6969/app-api',
+  baseUrl: 'http://39.101.133.155:80/app-api',
   // 超时
   timeout: 30000,
   // 禁用 Cookie 等信息

@@ -323,19 +323,19 @@ export default {
                 id: 1,
                 title: '最适合冬天游玩的5个地方,你都去过吗?',
                 url: 'https://cdn.uviewui.com/uview/swiper/swiper1.png',
-                img: 'https://cdn.uviewui.com/uview/swiper/swiper1.png'
+                img: 'https://cdn.uviewui.com/uview/album/2.jpg'
               },
               {
                 id: 2,
                 title: '再留几天行么?日本舍不得大熊猫回中国',
                 url: 'https://cdn.uviewui.com/uview/swiper/swiper2.png',
-                img: 'https://cdn.uviewui.com/uview/swiper/swiper1.png'
+                img: 'https://cdn.uviewui.com/uview/album/3.jpg'
               },
               {
                 id: 3,
                 title: '家暴不是家务事！转发让更多人看到',
                 url: 'https://cdn.uviewui.com/uview/swiper/swiper3.png',
-                img: 'https://cdn.uviewui.com/uview/swiper/swiper1.png'
+                img: 'https://cdn.uviewui.com/uview/album/9.jpg'
               }
 				]
       },
